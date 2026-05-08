@@ -3,3 +3,9 @@ Episode 01 - Inception.mp4
 Episode 02 - Igniting our App.mp4
 
 Episode 03 - Laying the foundation.mp4
+
+/node_modules
+
+/dist
+
+/.parcel-cache
