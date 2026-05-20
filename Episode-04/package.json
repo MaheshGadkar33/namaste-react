@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "react-shimmer-effects": "^1.0.4"
   },
   "browserlist": [
     "last 2 versions"
