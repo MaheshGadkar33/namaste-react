@@ -3,6 +3,7 @@ import restData from "../utils/mockData";
 import RestAurentCard from "./RestAurentCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const styleCard = {
@@ -24,31 +25,31 @@ const Body = () => {
   }, []);
 
   const fetchData = () => {
-    let data = fetch(
-      "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.4091747&lng=76.5603184&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING",
-    )
+    let data = fetch("https://corsproxy.io/?https://dummyjson.com/recipes")
       .then((res) => res.json())
       .then((json) => {
         // console.log(
         //   json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants,
         // );
-        setListOfRest(
-          json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-            ?.restaurants,
-        );
-        setFilteredRestaurent(
-          json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-            ?.restaurants,
-        );
+        // setListOfRest(
+        //   json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        //     ?.restaurants,
+        // );
+        // setFilteredRestaurent(
+        //   json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
+        //     ?.restaurants,
+        // );
+
+        console.log(json.recipes);
+        setListOfRest(json.recipes);
+        setFilteredRestaurent(json.recipes);
       });
   };
 
   const handleFilter = () => {
-    let filterData = data.filter(
-      (res) => res.card.card.info.avgRatingString > 4,
-    );
+    let filterData = listOfRest.filter((res) => res.rating > 4.8);
     console.log(filterData);
-    setListOfRest(filterData);
+    setFilteredRestaurent(filterData);
   };
   //condional rendering
   // if (listOfRest.length === 0)
@@ -57,14 +58,12 @@ const Body = () => {
   //       <Shimmer />
   //     </div>
   //   );
-  console.log("Body is rendered");
+  // console.log("Body is rendered");
 
   const handleSearch = () => {
     // console.log("search is called 🔎");
     let searchData = listOfRest.filter((rest) => {
-      return rest.restaurantName
-        .toLowerCase()
-        .includes(searchText.toLowerCase());
+      return rest.name.toLowerCase().includes(searchText.toLowerCase());
     });
     setFilteredRestaurent(searchData);
     console.log(searchData);
@@ -87,7 +86,10 @@ const Body = () => {
       </div>
       <div className="restaurantContainer">
         {filteredRestaurent?.map((restaurant, id) => (
-          <RestAurentCard key={restaurant.info.id} restData={restaurant} />
+          <Link key={restaurant.id} to={"/recipes/" + restaurant.id}>
+            {" "}
+            <RestAurentCard key={restaurant.id} restData={restaurant} />
+          </Link>
         ))}
       </div>
     </div>
