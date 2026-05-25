@@ -6,7 +6,7 @@ const RestAurentCard = ({ restData }) => {
   return (
     <div className="restCard">
       <img className="restLogo" src={image} alt="" />
-      <h3>{name}</h3>
+      <h3 className="text-3xl font-bold underline">{name}</h3>
       <h4>⭐️ {rating}</h4>
       <h4>Meal Type : {mealType}</h4>
       <ol>

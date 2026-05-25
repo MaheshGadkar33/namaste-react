@@ -25,10 +25,12 @@
     "parcel": "^2.16.4"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-router-dom": "^6.30.3",
-    "react-shimmer-effects": "^1.0.4"
+    "react-shimmer-effects": "^1.0.4",
+    "tailwindcss": "^4.3.0"
   },
   "browserlist": [
     "last 2 versions"

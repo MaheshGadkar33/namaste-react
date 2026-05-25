@@ -1,9 +1,10 @@
-import data from "../utils/mockData";
-import restData from "../utils/mockData";
 import RestAurentCard from "./RestAurentCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useRestaurantList from "../utils/useRestauarntList";
+import useOnlineStatus from "../utils/useOnlineStatus";
+import OfflinePage from "./offlinePage";
 
 const Body = () => {
   const styleCard = {
@@ -14,15 +15,17 @@ const Body = () => {
   // let restData = [];
 
   //state Variable
-  const [listOfRest, setListOfRest] = useState([]);
+  // const [listOfRest, setListOfRest] = useState([]);
   const [filteredRestaurent, setFilteredRestaurent] = useState([]);
   const [searchText, setSearchText] = useState("");
   // console.log(data[0].card.card.info.name);
+  const listOfRest = useRestaurantList();
+  // console.log("list of rest", listOfRest);
 
   useEffect(() => {
-    fetchData();
-    // console.log("list of rest", listOfRest);
-  }, []);
+    // fetchData();
+    setFilteredRestaurent(listOfRest);
+  }, [listOfRest]);
 
   const fetchData = () => {
     let data = fetch("https://corsproxy.io/?https://dummyjson.com/recipes")
@@ -42,7 +45,6 @@ const Body = () => {
 
         console.log(json.recipes);
         setListOfRest(json.recipes);
-        setFilteredRestaurent(json.recipes);
       });
   };
 
@@ -68,6 +70,10 @@ const Body = () => {
     setFilteredRestaurent(searchData);
     console.log(searchData);
   };
+
+  const onLineStatus = useOnlineStatus();
+
+  if (onLineStatus === false) return <OfflinePage />;
   return listOfRest?.length === 0 ? (
     <Shimmer />
   ) : (
