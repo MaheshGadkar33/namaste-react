@@ -9,7 +9,10 @@ const useRestaurantList = () => {
   const fetchData = async () => {
     const data = await fetch(RECIPE_API);
     const json = await data.json();
-    setListOfRest(json?.recipes);
+    // console.log(json.cards[4].card.card.gridElements.infoWithStyle.restaurants);
+    setListOfRest(
+      json.cards[4].card.card.gridElements.infoWithStyle.restaurants,
+    );
   };
   return listOfRest;
 };

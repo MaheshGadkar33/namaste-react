@@ -1,102 +1,100 @@
-import RestAurentCard from "./RestAurentCard";
-import { useState, useEffect } from "react";
+import RestAurentCard, { withTopRatingLabel } from "./RestAurentCard";
+import { useState, useEffect, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useRestaurantList from "../utils/useRestauarntList";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import OfflinePage from "./offlinePage";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
-  const styleCard = {
-    backgroundColor: "skyBlue",
-  };
-
-  // Noraml Variable
-  // let restData = [];
-
-  //state Variable
-  // const [listOfRest, setListOfRest] = useState([]);
   const [filteredRestaurent, setFilteredRestaurent] = useState([]);
   const [searchText, setSearchText] = useState("");
-  // console.log(data[0].card.card.info.name);
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
+
   const listOfRest = useRestaurantList();
-  // console.log("list of rest", listOfRest);
 
   useEffect(() => {
-    // fetchData();
     setFilteredRestaurent(listOfRest);
   }, [listOfRest]);
 
-  const fetchData = () => {
-    let data = fetch("https://corsproxy.io/?https://dummyjson.com/recipes")
-      .then((res) => res.json())
-      .then((json) => {
-        // console.log(
-        //   json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants,
-        // );
-        // setListOfRest(
-        //   json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        //     ?.restaurants,
-        // );
-        // setFilteredRestaurent(
-        //   json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        //     ?.restaurants,
-        // );
-
-        console.log(json.recipes);
-        setListOfRest(json.recipes);
-      });
-  };
+  const RestCardPromoted = withTopRatingLabel(RestAurentCard);
 
   const handleFilter = () => {
-    let filterData = listOfRest.filter((res) => res.rating > 4.8);
-    console.log(filterData);
+    const filterData = listOfRest.filter((res) => res?.info?.avgRating > 4.2);
+
     setFilteredRestaurent(filterData);
   };
-  //condional rendering
-  // if (listOfRest.length === 0)
-  //   return (
-  //     <div>
-  //       <Shimmer />
-  //     </div>
-  //   );
-  // console.log("Body is rendered");
 
   const handleSearch = () => {
-    // console.log("search is called 🔎");
-    let searchData = listOfRest.filter((rest) => {
-      return rest.name.toLowerCase().includes(searchText.toLowerCase());
-    });
+    const searchData = listOfRest.filter((rest) =>
+      rest?.info?.name?.toLowerCase().includes(searchText.toLowerCase()),
+    );
+
     setFilteredRestaurent(searchData);
-    console.log(searchData);
   };
 
   const onLineStatus = useOnlineStatus();
 
-  if (onLineStatus === false) return <OfflinePage />;
-  return listOfRest?.length === 0 ? (
-    <Shimmer />
-  ) : (
-    <div className="bodyContainer">
-      <div className="filter" style={styleCard}>
-        <input
-          type="text"
-          className="searchInput"
-          value={searchText}
-          onChange={(e) => setSearchText(e.target.value)}
-        />
-        <button onClick={handleSearch}>Search</button>
-        <button className="filter-btn" onClick={handleFilter}>
-          Top Rated Restaurants
-        </button>
+  if (!onLineStatus) return <OfflinePage />;
+
+  if (listOfRest?.length === 0) return <Shimmer />;
+
+  return (
+    <div className="min-h-screen bg-gray-100">
+      {/* Search & Filter Section */}
+      <div className="bg-white shadow-md py-5 px-6 sticky top-30 z-50">
+        <div className="max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-4">
+          <input
+            type="text"
+            placeholder="🔍 Search restaurants..."
+            className="w-72 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400"
+            value={searchText}
+            onChange={(e) => setSearchText(e.target.value)}
+          />
+
+          <button
+            onClick={handleSearch}
+            className="bg-orange-500 hover:bg-orange-600 text-white font-medium px-5 py-2 rounded-lg transition duration-300"
+          >
+            Search
+          </button>
+
+          <button
+            onClick={handleFilter}
+            className="bg-green-600 hover:bg-green-700 text-white font-medium px-5 py-2 rounded-lg transition duration-300"
+          >
+            ⭐ Top Rated
+          </button>
+
+          <input
+            type="text"
+            placeholder="Update Username"
+            value={loggedInUser}
+            onChange={(e) => setUserName(e.target.value)}
+            className="w-64 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          />
+        </div>
       </div>
-      <div className="restaurantContainer">
-        {filteredRestaurent?.map((restaurant, id) => (
-          <Link key={restaurant.id} to={"/recipes/" + restaurant.id}>
-            {" "}
-            <RestAurentCard key={restaurant.id} restData={restaurant} />
-          </Link>
-        ))}
+
+      {/* Restaurant Cards */}
+      <div className="max-w-7xl mx-auto px-6 py-8">
+        <div className="flex flex-wrap justify-center gap-8">
+          {filteredRestaurent?.map((restaurant) => (
+            <Link
+              key={restaurant?.info?.id}
+              to={`/restaurants/${restaurant?.info?.id}`}
+              className="transform transition duration-300 hover:-translate-y-2"
+            >
+              {restaurant?.info?.avgRating > 4.2 ? (
+                <RestCardPromoted restData={restaurant} />
+              ) : (
+                <RestAurentCard restData={restaurant} />
+              )}
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );
