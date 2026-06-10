@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { RECIPE_API } from "./constats";
+import { RESTAURANTS } from "./constats";
 
 const useRestaurantList = () => {
   const [listOfRest, setListOfRest] = useState([]);
@@ -7,7 +7,7 @@ const useRestaurantList = () => {
     fetchData();
   }, []);
   const fetchData = async () => {
-    const data = await fetch(RECIPE_API);
+    const data = await fetch(RESTAURANTS);
     const json = await data.json();
     // console.log(json.cards[4].card.card.gridElements.infoWithStyle.restaurants);
     setListOfRest(

@@ -6,6 +6,6 @@ export const LOGO_URL =
 
 export const MENU_API = "https://yum-drop.onrender.com/api/menu?resId=";
 
-export const RECIPE_API = "http://localhost:3001/data";
+export const RESTAURANTS = "http://localhost:3001/data";
 
 export const MENUIMAGE = "https://media-assets.swiggy.com/swiggy/image/upload/";

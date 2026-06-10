@@ -3,16 +3,37 @@ import { LOGO_URL } from "../utils/constats";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import { useSelector, useDispatch } from "react-redux";
+import { toggleTheme } from "../utils/themeSlice";
 
 const Header = () => {
   const [btnName, setBtnName] = useState("Login");
   const onLineStatus = useOnlineStatus();
   const { loggedInUser } = useContext(UserContext);
 
-  useEffect(() => {}, []);
+  //subscribing to store usoing selector
+  const cartItems = useSelector((store) => store.cart.items);
+
+  const isDarkMode = useSelector((store) => store.toggleTheme.isDarkMode);
+  // console.log(isDarkMode);
+
+  const dispatch = useDispatch();
+
+  const favoritesRestaurants = useSelector(
+    (store) => store.favorites.restaurants,
+  );
+
+  const handleToggleTheme = () => {
+    console.log("clicked");
+    dispatch(toggleTheme());
+  };
+
+  // console.log("favoritesRestaurants", favoritesRestaurants);
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-lg">
+    <header
+      className={`sticky top-0 z-50 shadow-lg ${isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"}`}
+    >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
         {/* Logo */}
         <div>
@@ -67,7 +88,20 @@ const Header = () => {
               </Link>
             </li>
 
-            <li className="cursor-pointer hover:text-orange-500">🛒 Cart</li>
+            <li>
+              <Link to="/cart" className="cursor-pointer hover:text-orange-500">
+                🛒 Cart({cartItems.length})
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to="/favorites"
+                className="cursor-pointer hover:text-orange-500"
+              >
+                ❤️ Favorites({favoritesRestaurants.length})
+              </Link>
+            </li>
 
             <li className="bg-gray-100 px-4 py-2 rounded-full text-sm font-semibold">
               👤 {loggedInUser}
@@ -81,6 +115,12 @@ const Header = () => {
                 }
               >
                 {btnName}
+              </button>
+            </li>
+
+            <li>
+              <button onClick={handleToggleTheme}>
+                {isDarkMode ? "Dark Mode" : "Light Mode"}
               </button>
             </li>
           </ul>

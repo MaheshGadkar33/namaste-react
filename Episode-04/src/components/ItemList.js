@@ -1,9 +1,18 @@
+import { useDispatch, useSelector } from "react-redux";
 import { MENUIMAGE } from "../utils/constats";
+import { addItem } from "../utils/cartSlice";
 
-const ItemList = (props) => {
-  const { name, price, ratings, imageId } = props.data.card.info;
+const ItemList = ({ data }) => {
+  const { name, price, ratings, imageId } = data.card.info;
 
   const { rating, ratingCountV2 } = ratings?.aggregatedRating || {};
+  const dispatch = useDispatch();
+
+  const handleAddItem = (item) => {
+    console.log(item);
+    //dispatch an action
+    dispatch(addItem(item));
+  };
 
   return (
     <div className="flex justify-between py-5 border-b border-gray-100 last:border-none">
@@ -29,7 +38,10 @@ const ItemList = (props) => {
             alt={name}
           />
 
-          <button className="absolute left-1/2 -translate-x-1/2 bottom-[-10px] bg-white text-green-600 font-bold px-6 py-1 rounded-lg shadow-md border border-gray-200 hover:bg-gray-50">
+          <button
+            className="absolute left-1/2 -translate-x-1/2 bottom-[-10px] bg-white text-green-600 font-bold px-6 py-1 rounded-lg shadow-md border border-gray-200 hover:bg-gray-50"
+            onClick={() => handleAddItem(data.card.info)}
+          >
             ADD
           </button>
         </div>
