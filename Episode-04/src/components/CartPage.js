@@ -19,6 +19,7 @@ const CartPage = () => {
 
       {cartItems.map((item) => (
         <div
+          data-testid="cartItem"
           key={item.id}
           className="flex justify-between py-5 border-b border-gray-100"
         >

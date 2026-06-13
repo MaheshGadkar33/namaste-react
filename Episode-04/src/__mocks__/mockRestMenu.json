@@ -1,0 +1,1573 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Tuljai Idli Grah Shakha No 1",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "807660",
+              "name": "Tuljai Idli Grah Shakha No 1",
+              "city": "Latur",
+              "slugs": {
+                "restaurant": "tuljai-idli-grah-shakha-no-1-ausa-road-ausa-road",
+                "city": "latur"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "42ae4ac5c395dcc76aecf4d01c2087f7",
+              "locality": "Ausa Road",
+              "areaName": "Near Petrol Pump",
+              "costForTwo": "20000",
+              "costForTwoMessage": "₹200 for two",
+              "cuisines": ["South Indian", "North Indian"],
+              "avgRating": 4.3,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "807660",
+                "fees": [{}]
+              },
+              "parentId": "481881",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "477 ratings",
+              "sla": {
+                "restaurantId": "807660",
+                "deliveryTime": 506,
+                "minDeliveryTime": 506,
+                "maxDeliveryTime": 506,
+                "lastMileTravel": 970.9,
+                "serviceability": "NON_SERVICEABLE",
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "slaString": "506 MINS",
+                "lastMileTravelString": "970.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "visibility": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "10% off upto ₹75|Use VISAPLATINUMCC Above ₹600",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off upto ₹75|Use VISAPLATINUMDC Above ₹300",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "tuljai-idli-grah-shakha-no-1-ausa-road-ausa-road",
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "PADMLAX COMPLEX, NEAR USHA KIRAN TALKIES, BARSHI ROAD,LATUR, Latur, Latur,Latur, Maharashtra - 413512"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "South Indian,North Indian"
+                }
+              ],
+              "totalRatings": 477,
+              "aggregatedDiscountInfoV2": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "10% off upto ₹75|Use VISAPLATINUMCC Above ₹600",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off upto ₹75|Use VISAPLATINUMDC Above ₹300",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/807660"
+              },
+              "ratingSlab": "RATING_SLAB_5",
+              "availabilityServiceabilityMessage": "Does not deliver to your location",
+              "orderabilityCommunication": {
+                "title": {
+                  "text": "Wish you were"
+                },
+                "subTitle": {
+                  "text": "CLOSER!"
+                },
+                "message": {
+                  "text": "This location is outside the outlet's delivery area",
+                  "textColour": "negative"
+                },
+                "customIcon": {
+                  "bgGradientColorStart": "#F64C41",
+                  "bgGradientColorEnd": "#E53554"
+                },
+                "commsStyling": {}
+              },
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "18.402801548745,76.558437683432",
+              "backgroundImageOverlayInfo": {},
+              "featuredSectionInfo": {},
+              "timingsInfo": {
+                "status": "Closed",
+                "message": "Opens 7:00 am",
+                "outletTiming": {
+                  "infoList": [
+                    {
+                      "title": "Monday",
+                      "subtitle": "7.00AM - 3.00PM"
+                    },
+                    {
+                      "title": "Tuesday",
+                      "subtitle": "7.00AM - 3.00PM"
+                    },
+                    {
+                      "title": "Wednesday",
+                      "subtitle": "7.00AM - 3.00PM"
+                    },
+                    {
+                      "title": "Thursday",
+                      "subtitle": "7.00AM - 3.00PM"
+                    },
+                    {
+                      "title": "Friday",
+                      "subtitle": "7.00AM - 3.00PM"
+                    },
+                    {
+                      "title": "Saturday",
+                      "subtitle": "7.00AM - 3.00PM"
+                    },
+                    {
+                      "title": "Sunday",
+                      "subtitle": "7.00AM - 3.00PM"
+                    }
+                  ]
+                }
+              },
+              "phone": "9764976458",
+              "postalCode": "413512"
+            },
+            "analytics": {}
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "scrollBar": {
+                "scrollThumbColor": "#E46D47",
+                "scrollTrackColor": "#e4e4e4",
+                "width": 54,
+                "height": 4,
+                "scrollStyling": {
+                  "padding": {
+                    "top": 20,
+                    "bottom": 20
+                  }
+                }
+              }
+            },
+            "id": "offerCollectionWidget",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹75",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/2dcd3eef-bcc5-4f48-9900-56e02ebe6564_Visa.png",
+                      "offerIds": ["0c89891a-2913-4f63-a3a1-24f0e06be59b"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE VISAPLATINUMCC",
+                      "description": "ABOVE ₹600",
+                      "offerType": "offers",
+                      "restId": "807660",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/2dcd3eef-bcc5-4f48-9900-56e02ebe6564_Visa.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE VISAPLATINUMCC"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹75",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/cbbae0d0-62ae-4172-818a-6d554bfad663_Visa.png",
+                      "offerIds": ["78d89308-6dc6-478a-a502-e6b5686b0ce9"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE VISAPLATINUMDC",
+                      "description": "ABOVE ₹300",
+                      "offerType": "offers",
+                      "restId": "807660",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/cbbae0d0-62ae-4172-818a-6d554bfad663_Visa.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE VISAPLATINUMDC"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹150 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/6d66acda-f6fb-4363-820c-1457d26ec2a4_Axis.png",
+                      "offerIds": ["c4b55db6-3ab4-4359-8f63-2ce74de95ae8"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AXISREWARDS",
+                      "description": "ABOVE ₹500",
+                      "offerType": "offers",
+                      "restId": "807660",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/6d66acda-f6fb-4363-820c-1457d26ec2a4_Axis.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE AXISREWARDS"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹50",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/339c60c8-d60f-4e00-aa82-96bcaa0a80c5_Visa.png",
+                      "offerIds": ["fe38f2e8-100b-45e1-97bd-80500a954ed0"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE VISACLASSICDC",
+                      "description": "ABOVE ₹300",
+                      "offerType": "offers",
+                      "restId": "807660",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/339c60c8-d60f-4e00-aa82-96bcaa0a80c5_Visa.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE VISACLASSICDC"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 5% OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/30/a373c82e-d80b-49b4-9f79-4847bffbdf0f_ICICIMenuLogo.png",
+                      "offerIds": ["4ff43967-9fbd-4c36-8cd7-06c9554ecd66"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE ICICIAPAY",
+                      "description": "ABOVE ₹299",
+                      "offerType": "offers",
+                      "restId": "807660",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/30/a373c82e-d80b-49b4-9f79-4847bffbdf0f_ICICIMenuLogo.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE ICICIAPAY"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuTab",
+            "tabs": [
+              {
+                "id": "REGULAR",
+                "title": "Full Menu",
+                "selected": true,
+                "analytics": {},
+                "selectedImage": "v1594205104/fullMenuActive_qcsdzt.png",
+                "unselectedImage": "v1594205107/fullMenuInactive_fbdtp2.png"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "South Indian",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766702",
+                              "name": "Idli",
+                              "category": "South Indian",
+                              "description": "Soft and fluffy, this South Indian delight is a perfect harmony of flavors, satisfying and flavorful.",
+                              "imageId": "f05864cc3957ea644579212d078e18d6",
+                              "isVeg": 1,
+                              "price": 6000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "218 ratings",
+                                  "ratingCountV2": "218"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028885",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "6000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766719",
+                              "name": "Ghee dosa",
+                              "category": "South Indian",
+                              "description": "A delectable and aromatic South Indian delicacy that will transport you to the flavorsome streets of the South.",
+                              "imageId": "d5e77b03533715d29903e59b2b2577b8",
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028880",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "11000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766703",
+                              "name": "Upma",
+                              "category": "South Indian",
+                              "description": "This savory South Indian delight offers a tantalizing blend of textures and flavors, perfect for any meal.",
+                              "imageId": "57d40819bfd1fbe93ebd12cc489409df",
+                              "isVeg": 1,
+                              "price": 5500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "27 ratings",
+                                  "ratingCountV2": "27"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                }
+                              ],
+                              "parentId": "76028901",
+                              "menuFilterIds": ["EATRIGHT", "VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "5500",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766704",
+                              "name": "Sheera",
+                              "category": "South Indian",
+                              "description": "Indulge in a rich, aromatic delicacy that's sweet, fluffy, and utterly delightful, perfect for any occasion.",
+                              "imageId": "cb71c4f3fe5fa50fd2aa05d411c06b60",
+                              "isVeg": 1,
+                              "price": 5500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "26 ratings",
+                                  "ratingCountV2": "26"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028900",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "5500",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766705",
+                              "name": "Vada samba",
+                              "category": "South Indian",
+                              "description": "A delectable South Indian delicacy that combines crispy and flavorful bites, perfect for those seeking a delightful vegetarian treat.",
+                              "imageId": "bf8096d908570288a59254446c84e25c",
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "53 ratings",
+                                  "ratingCountV2": "53"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028904",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "7000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766706",
+                              "name": "Idli vada",
+                              "category": "South Indian",
+                              "description": "A delightful South Indian favorite that combines soft idlis and crispy vadas, created to charm every herbivorous palate.",
+                              "imageId": "d4e5e5b02881d778be566f38d6a712ff",
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "77 ratings",
+                                  "ratingCountV2": "77"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028886",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "7000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766707",
+                              "name": "Dosa",
+                              "category": "South Indian",
+                              "description": "A delectable South Indian delight bursting with flavors.",
+                              "imageId": "2eeef91c9236848fd9fd46fc116a366d",
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "124 ratings",
+                                  "ratingCountV2": "124"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028876",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "7000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766708",
+                              "name": "Uttapa",
+                              "category": "South Indian",
+                              "description": "A mouthwatering South Indian delight that bursts with flavors and textures, bringing the essence of traditional cuisine to your plate.",
+                              "imageId": "eeab4762b10fc30545e8f268baf55935",
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "115 ratings",
+                                  "ratingCountV2": "115"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028903",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "7000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766709",
+                              "name": "Onion dosa",
+                              "category": "South Indian",
+                              "description": "Crispy and golden, this South Indian delight features a savory blend of flavors, showcasing perfectly cooked onions for an irresistible taste sensation.",
+                              "imageId": "496d2c554df8470184efb6c87d9f1169",
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028892",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "8500",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766710",
+                              "name": "Masala dosa",
+                              "category": "South Indian",
+                              "description": "A flavor-packed delight from South India, this hot and crispy specialty is a vegetarian treat that will leave you craving for more.",
+                              "imageId": "75709055f990b6591a9fc2407ab2b7a3",
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "65 ratings",
+                                  "ratingCountV2": "65"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028888",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "9000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766711",
+                              "name": "Cut dosa",
+                              "category": "South Indian",
+                              "description": "A mouth-watering South Indian delicacy that combines the perfect balance of texture and flavor.",
+                              "imageId": "c3e93ee09261a918eb2895818092e4ca",
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "80 ratings",
+                                  "ratingCountV2": "80"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028875",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_final_price": "0",
+                                "swiggy_listing_price": "10000"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766712",
+                              "name": "Shabu khichdi",
+                              "category": "South Indian",
+                              "description": "A comforting bowl of creamy rice and lentils, infused with aromatic spices and a touch of ghee, perfect for any occasion.",
+                              "imageId": "2d57911ba657644be6b333043d048315",
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "32 ratings",
+                                  "ratingCountV2": "32"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028899",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "7000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766713",
+                              "name": "Matki usal",
+                              "category": "South Indian",
+                              "description": "This hearty and flavorful South Indian delight is a perfect harmony of legumes and aromatic spices, making it irresistible.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/23/828daf75-9b20-4521-97b9-f52d518bbcb3_b51d3414-e7bb-4ba1-b22d-662685e7e922.JPG",
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "9 ratings",
+                                  "ratingCountV2": "9"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028891",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "7000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766714",
+                              "name": "Upma fry",
+                              "category": "South Indian",
+                              "description": "Savor the rich, comforting flavors of this South Indian delight, perfectly seasoned and golden-brown with a delightful crunch.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/3/090d2e6e-ec7d-4695-af17-5bc049afe170_6aaa04e5-ad19-4cf4-ab6c-cbcb5c82736c.jpg_compressed",
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "8 ratings",
+                                  "ratingCountV2": "8"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                }
+                              ],
+                              "parentId": "76028902",
+                              "menuFilterIds": ["EATRIGHT", "VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "8500",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766715",
+                              "name": "Butter upma fry",
+                              "category": "South Indian",
+                              "description": "Savor the rich, buttery flavor and delightful texture of this South Indian favorite, perfectly cooked to perfection.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/25/21bab6ac-e50d-453a-87ee-1ac33045136e_bfa10a8f-3b26-4444-8fdc-247979c059d6.jpg",
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "parentId": "76028870",
+                              "menuFilterIds": ["VEG"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "10000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766716",
+                              "name": "Ghee upma fry",
+                              "category": "South Indian",
+                              "description": "A fragrant, buttery blend of semolina and vegetables, pan-fried to golden perfection for a delightful crunch.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/25/21bab6ac-e50d-453a-87ee-1ac33045136e_bfa10a8f-3b26-4444-8fdc-247979c059d6.jpg",
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                }
+                              ],
+                              "parentId": "76028882",
+                              "menuFilterIds": ["EATRIGHT", "VEG"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "10000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766717",
+                              "name": "Butter dosa",
+                              "category": "South Indian",
+                              "description": "Crispy and golden, this delicate crepe is rich with buttery goodness, offering a delightful contrast of textures and flavors.",
+                              "imageId": "84552c7c84de13b7aac3d24d53bfe4f6",
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028866",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "11000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766718",
+                              "name": "Butter onion dosa",
+                              "category": "South Indian",
+                              "description": "Delicate and crispy, this South Indian delight boasts a rich, buttery flavor infused with savory onions, creating a delightful experience with every bite.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/5/87d6dc46-48a5-4984-8d4b-59639a408149_24619107-9814-4438-a405-9516c2230674.jpg",
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "parentId": "76028867",
+                              "menuFilterIds": ["VEG"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_final_price": "0",
+                                "swiggy_listing_price": "12000"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766720",
+                              "name": "Ghee onion dosa",
+                              "category": "South Indian",
+                              "description": "Indulge in a crispy, golden-brown delight, with a rich buttery flavor and sweet caramelized onions melded perfectly.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/5/abea9dd8-053c-4c78-b280-bf33333084e4_63c26e20-eaec-4df4-84a4-91c653347659.jpg",
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "parentId": "76028881",
+                              "menuFilterIds": ["VEG"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "12000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766721",
+                              "name": "Cheese dosa",
+                              "category": "South Indian",
+                              "description": "Crispy and golden-brown, this delight features a savory, cheesy filling that melts in your mouth.",
+                              "imageId": "4080e5546734d702dda49aeb3940b379",
+                              "isVeg": 1,
+                              "price": 12500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "7 ratings",
+                                  "ratingCountV2": "7"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028872",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "12500",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766722",
+                              "name": "Ghee cut dosa",
+                              "category": "South Indian",
+                              "description": "Crispy and golden-brown, this delectable delight offers a rich, buttery flavor that melts in your mouth.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/12/7c2b9610-bd66-4a5a-9d04-fd0626758e93_b6dc8fba-4a14-417c-8219-b7a962870e2f.jpeg",
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028879",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "12000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766723",
+                              "name": "Butter cut dosa",
+                              "category": "South Indian",
+                              "description": "This crispy, golden-brown delicacy is laced with rich, creamy butter, creating a delightful harmony of flavors and textures.",
+                              "imageId": "0f3a29303c817033f211d924a30f57ae",
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "14 ratings",
+                                  "ratingCountV2": "14"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028865",
+                              "menuFilterIds": ["VEG"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "13000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "130766724",
+                              "name": "Cheese cut dosa",
+                              "category": "South Indian",
+                              "description": "Delight in a crispy, golden delicacy, layered with melted cheese, offering a rich, savory flavor that comforts the soul.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/23/c8b87301-922d-473f-b1ed-5ed6f2f4780f_c4f0e009-19ad-4205-a900-370f84c1cde3.JPG",
+                              "isVeg": 1,
+                              "price": 15000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "76028871",
+                              "menuFilterIds": ["VEG", "toprated"],
+                              "priceComparisonComms": {},
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "15000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "f05864cc3957ea644579212d078e18d6",
+                      "categoryId": "43815257"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 21521237001375"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Tuljai Idli Grah Shakha No 1",
+                      "area": "Near Petrol Pump",
+                      "completeAddress": "PADMLAX COMPLEX, NEAR USHA KIRAN TALKIES, BARSHI ROAD,LATUR, Latur, Latur,Latur, Maharashtra - 413512"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "eyJLSUQiOiIyIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODEyMDA5ODYsImlhdCI6MTc4MTE5NzM4Niwic2Vzc2lvbl9kYXRhIjoiNjRZeGtLc1VuZ1A0WVc4NEtINlZPVFpCRW1tNnNNT0NVSXA4TkR6YU16bk1KTUJNaHBhTGdOeXI4K1NFaWNTYVlzV2lEWjYvV1RXdUtYV3BGaEdYRi9XaDJQRE9OY3FHYlFhQTAvRVNNUWJkWnRSTHp2bHNNYmJrL1AyVnVrQUlBTktOM1NPTXZMR1dCdTBIU0x3eEZGd09BUjlLYUZmOHd3OGZtOEFWb3M1cEJYb2VRa1QyZVl6S2JpejdTVm9WNnQxQ0hoaHFvYkhVZWxzcnZHY1F5Zz09Iiwic2lkIjoicnZhODJiOThjOWMtOWI2My00MjFhLTlhODktY2I3MDU0OGVmIiwic3ViIjoiZWJiNTFkMjQtZGIwYS00ZDQ3LTgzNGYtZDMyMjdjYzE3ZDg1IiwidXNlcl9pZCI6IjAifQ.D_BMhuEQqt_4zLDojHd7ZiXGWYV7ABpG7LnoLCyi-1M",
+  "sid": "rva82b98c9c-9b63-421a-9a89-cb70548ef",
+  "deviceId": "5bc3e467-ff88-cb8b-8472-39ee46775c96",
+  "csrfToken": "YLC7zJ2NaHn1-fDy_d2r9NbGJ96VokOd3d0XmgwQ"
+}

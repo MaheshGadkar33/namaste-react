@@ -40,7 +40,10 @@ const RestAurentCard = ({ restData, showRemoveButton = false }) => {
   };
 
   return (
-    <div className="w-[300px] relative bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer">
+    <div
+      data-testid="restCard"
+      className="w-[300px] relative bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer"
+    >
       {/* Restaurant Image */}
       <div className="overflow-hidden">
         <img
@@ -62,6 +65,7 @@ const RestAurentCard = ({ restData, showRemoveButton = false }) => {
 
         {showRemoveButton ? (
           <button
+            data-testid="removeBtn"
             onClick={handleremovefavorites}
             className="absolute top-1 right-3 z-10 bg-red-50 text-red-600 px-3 py-1 rounded-md shadow-lg"
           >
@@ -69,6 +73,7 @@ const RestAurentCard = ({ restData, showRemoveButton = false }) => {
           </button>
         ) : (
           <button
+            data-testid="favoriteBtn"
             onClick={handleFavoriteToggle}
             className="absolute top-1 right-3 z-10 bg-pink-50  px-3 py-1 shadow-lg rounded-md"
           >

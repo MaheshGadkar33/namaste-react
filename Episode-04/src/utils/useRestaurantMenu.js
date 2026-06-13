@@ -15,7 +15,7 @@ const useRestaurantMenu = (resId) => {
     //   json.cards[4].groupedCard.cardGroupMap.REGULAR.cards[1].card.card
     //     .itemCards,
     // );
-    // console.log(json.data);
+    // console.log(json);
     setRestInfo(json?.data?.cards);
   };
   return restInfo;

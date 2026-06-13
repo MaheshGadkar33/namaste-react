@@ -9,7 +9,7 @@ const ItemList = ({ data }) => {
   const dispatch = useDispatch();
 
   const handleAddItem = (item) => {
-    console.log(item);
+    // console.log(item);
     //dispatch an action
     dispatch(addItem(item));
   };

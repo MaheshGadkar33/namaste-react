@@ -11,7 +11,7 @@ const Header = () => {
   const onLineStatus = useOnlineStatus();
   const { loggedInUser } = useContext(UserContext);
 
-  //subscribing to store usoing selector
+  //subscribing to store using selector
   const cartItems = useSelector((store) => store.cart.items);
 
   const isDarkMode = useSelector((store) => store.toggleTheme.isDarkMode);
@@ -24,7 +24,7 @@ const Header = () => {
   );
 
   const handleToggleTheme = () => {
-    console.log("clicked");
+    // console.log("clicked");
     dispatch(toggleTheme());
   };
 
@@ -90,7 +90,7 @@ const Header = () => {
 
             <li>
               <Link to="/cart" className="cursor-pointer hover:text-orange-500">
-                🛒 Cart({cartItems.length})
+                🛒 Cart({cartItems.length} Item)
               </Link>
             </li>
 
